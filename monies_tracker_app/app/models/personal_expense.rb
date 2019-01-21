@@ -1,0 +1,2 @@
+class PersonalExpense < ApplicationRecord
+end

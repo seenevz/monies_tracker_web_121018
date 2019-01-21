@@ -1,0 +1,2 @@
+class SharedWallet < ApplicationRecord
+end
