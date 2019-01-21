@@ -1,2 +1,0 @@
-class PersonalExpense < ApplicationRecord
-end
