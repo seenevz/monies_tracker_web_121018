@@ -1,0 +1,2 @@
+class SharedExpense < ApplicationRecord
+end
