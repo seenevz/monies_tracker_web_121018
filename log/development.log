@@ -439,3 +439,1287 @@ Completed 200 OK in 17ms (Views: 10.3ms | ActiveRecord: 0.0ms)
   ↳ db/seeds.rb:32
   [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
   ↳ db/seeds.rb:32
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/Carlyne/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "champlin_oscar"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "dina.balistreri"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "stanley_friesen"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "robert.bahringer"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "price_sanford"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "ledner.desire"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "cris.waters"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "emmett.goyette"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "orlando_gottlieb"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "lang.tyree"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "davida_dickinson"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "o_monnie_conner"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "julio.padberg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "rufus.mcclure"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "dewayne_dare"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "reinger_earnestine"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sherita_luettgen"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "vicente.sporer"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "oliver_king"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "rolland_leannon"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "monahan_tyrell"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "green.yoshiko"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "jake_wolf"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "schiller.louie"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "alease.gutkowski"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "danial.ferry"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "medhurst.katrice"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "schultz.ronald"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "wesley.mertz"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "rosalinda.halvorson"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "bruen_kyung"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "burton.morar"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "zieme.sal"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "parisian.fay"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "luettgen.lisbeth"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "reynolds.mark"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "lazaro.weber"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "kraig.willms"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "paul_gulgowski"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "koch_howard"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mCategory Create (1.4ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Donskoy, or Don Sphynx"], ["created_at", "2019-01-22 12:33:53.714816"], ["updated_at", "2019-01-22 12:33:53.714816"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Australian Mist"], ["created_at", "2019-01-22 12:33:53.720312"], ["updated_at", "2019-01-22 12:33:53.720312"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Havana Brown"], ["created_at", "2019-01-22 12:33:53.723483"], ["updated_at", "2019-01-22 12:33:53.723483"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Siberian"], ["created_at", "2019-01-22 12:33:53.726359"], ["updated_at", "2019-01-22 12:33:53.726359"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Savannah"], ["created_at", "2019-01-22 12:33:53.732995"], ["updated_at", "2019-01-22 12:33:53.732995"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/Carlyne/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "king.marisol"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "luciana.schumm"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "botsford.irvin"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "beahan.dino"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "edward.pagac"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "chase_schmitt"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "hansen.robbie"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "reilly.chantel"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "bernier_jolene"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "clarinda.littel"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "wolff.romeo"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "lowell_herzog"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "jannie_bartell"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "ramon_lakin"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "dario.brekke"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "kam_farrell"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "wolf.blair"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "fisher_maryanna"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "regan.osinski"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "carmelo.stehr"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "lula_lueilwitz"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "langosh.taneka"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "elinore_sporer"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "fleta_mohr"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "carroll_leon"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "valorie_champlin"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "savanna.leffler"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "glenn.schumm"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "kertzmann.carroll"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "kuphal_tessie"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "olson_theron"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "mozella_willms"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "schultz_logan"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "tyesha.kozey"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "o_keefe_paz"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "elbert.kirlin"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "koelpin_tyler"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "schulist_grazyna"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "hermiston_oretha"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "barton_dwight"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "king.marisol"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "luciana.schumm"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "botsford.irvin"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "beahan.dino"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "edward.pagac"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "chase_schmitt"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "hansen.robbie"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "reilly.chantel"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "bernier_jolene"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "clarinda.littel"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "wolff.romeo"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "lowell_herzog"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "jannie_bartell"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "ramon_lakin"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "dario.brekke"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "kam_farrell"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "wolf.blair"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "fisher_maryanna"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "regan.osinski"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "carmelo.stehr"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "lula_lueilwitz"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "langosh.taneka"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "elinore_sporer"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "fleta_mohr"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "carroll_leon"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "valorie_champlin"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "savanna.leffler"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "glenn.schumm"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "kertzmann.carroll"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "kuphal_tessie"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "olson_theron"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "mozella_willms"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "schultz_logan"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "tyesha.kozey"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "o_keefe_paz"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "elbert.kirlin"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "koelpin_tyler"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "schulist_grazyna"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "hermiston_oretha"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "barton_dwight"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/Carlyne/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "streich_michal"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "waters_marvin"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "crooks.salvador"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "hoeger_morgan"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "cummerata.lanny"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "julian_jacobi"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "violeta_batz"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "thao.gutkowski"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "yundt.kizzie"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "ehtel_kassulke"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "daisy.hills"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "stark_wesley"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "lincoln_abbott"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "lorinda_cruickshank"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "jenkins_antione"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "alonzo.oberbrunner"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "langosh.marguerite"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "vertie_boyle"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "mason_pfannerstill"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "gutmann_flossie"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "emmerich.hassie"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "whitley_gerlach"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "drew.brakus"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "may.huel"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "lady.yost"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "beatty.stefanie"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "brian.wintheiser"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "cody.emmerich"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "spencer_donnell"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "mccullough.randell"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "jeremiah_mclaughlin"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "dori.brakus"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "benita.macejkovic"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "audrie_waters"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "jackson.schiller"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "elia_mills"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "morar.nickolas"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "langworth_laverna"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "marla.moen"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "friesen.melvin"], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/Carlyne/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Thersa"], ["last_name", "Hane"], ["username", "thersa_hane"], ["password", "X7U0GxX7N26a"], ["created_at", "2019-01-22 12:43:41.530086"], ["updated_at", "2019-01-22 12:43:41.530086"]]
+  ↳ (byebug):1
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Fe"], ["last_name", "Gaylord"], ["username", "fe_gaylord"], ["password", "K7NoG8Yi853oK4U"], ["created_at", "2019-01-22 12:43:41.534421"], ["updated_at", "2019-01-22 12:43:41.534421"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Kenya"], ["last_name", "Mayer"], ["username", "kenya_mayer"], ["password", "GbPiAuP6S65rMl"], ["created_at", "2019-01-22 12:43:41.537656"], ["updated_at", "2019-01-22 12:43:41.537656"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Stewart"], ["last_name", "Goodwin"], ["username", "goodwin_stewart"], ["password", "YlVkIiKj9z35"], ["created_at", "2019-01-22 12:43:41.540742"], ["updated_at", "2019-01-22 12:43:41.540742"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Erin"], ["last_name", "Gleichner"], ["username", "gleichner_erin"], ["password", "LdZo0uXgOm"], ["created_at", "2019-01-22 12:43:41.544015"], ["updated_at", "2019-01-22 12:43:41.544015"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Anderson"], ["last_name", "Gibson"], ["username", "gibson.anderson"], ["password", "C8QmFaYiL9G"], ["created_at", "2019-01-22 12:43:41.547209"], ["updated_at", "2019-01-22 12:43:41.547209"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Chastity"], ["last_name", "Feeney"], ["username", "chastity.feeney"], ["password", "6sP0F6381yOxIs4h"], ["created_at", "2019-01-22 12:43:41.550460"], ["updated_at", "2019-01-22 12:43:41.550460"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Roscoe"], ["last_name", "Morar"], ["username", "morar_roscoe"], ["password", "RgDg0dUi1fSzS7"], ["created_at", "2019-01-22 12:43:41.553460"], ["updated_at", "2019-01-22 12:43:41.553460"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Wilfredo"], ["last_name", "Padberg"], ["username", "wilfredo_padberg"], ["password", "95UgM2D20"], ["created_at", "2019-01-22 12:43:41.557160"], ["updated_at", "2019-01-22 12:43:41.557160"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Birgit"], ["last_name", "Schneider"], ["username", "birgit_schneider"], ["password", "3b0pE9Lq8o"], ["created_at", "2019-01-22 12:43:41.560195"], ["updated_at", "2019-01-22 12:43:41.560195"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Sumiko"], ["last_name", "Hudson"], ["username", "sumiko_hudson"], ["password", "2qKiVeBl3yGn"], ["created_at", "2019-01-22 12:43:41.563257"], ["updated_at", "2019-01-22 12:43:41.563257"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Yer"], ["last_name", "Robel"], ["username", "robel.yer"], ["password", "RwIhXzRpAr5n"], ["created_at", "2019-01-22 12:43:41.566504"], ["updated_at", "2019-01-22 12:43:41.566504"]]
+  ↳ (byebug):1
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Bobbie"], ["last_name", "Ritchie"], ["username", "ritchie.bobbie"], ["password", "UoX310XnA7186cLj"], ["created_at", "2019-01-22 12:43:41.569908"], ["updated_at", "2019-01-22 12:43:41.569908"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Elden"], ["last_name", "Stokes"], ["username", "elden.stokes"], ["password", "70Z2Y464"], ["created_at", "2019-01-22 12:43:41.573308"], ["updated_at", "2019-01-22 12:43:41.573308"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Imelda"], ["last_name", "Leffler"], ["username", "leffler_imelda"], ["password", "J7Q2H70eVjOjS"], ["created_at", "2019-01-22 12:43:41.576274"], ["updated_at", "2019-01-22 12:43:41.576274"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Raymundo"], ["last_name", "Weber"], ["username", "weber.raymundo"], ["password", "YlLvD2YbNsY"], ["created_at", "2019-01-22 12:43:41.579829"], ["updated_at", "2019-01-22 12:43:41.579829"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Everett"], ["last_name", "Herzog"], ["username", "herzog_everett"], ["password", "AlL5RfO7J1"], ["created_at", "2019-01-22 12:43:41.583443"], ["updated_at", "2019-01-22 12:43:41.583443"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Melissa"], ["last_name", "Stokes"], ["username", "stokes_melissa"], ["password", "43FhElGiC"], ["created_at", "2019-01-22 12:43:41.586728"], ["updated_at", "2019-01-22 12:43:41.586728"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Nicole"], ["last_name", "Botsford"], ["username", "nicole.botsford"], ["password", "0j5oZg6cHzM"], ["created_at", "2019-01-22 12:43:41.589838"], ["updated_at", "2019-01-22 12:43:41.589838"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Gaye"], ["last_name", "Predovic"], ["username", "predovic_gaye"], ["password", "N5Ar1dWhU"], ["created_at", "2019-01-22 12:43:41.592924"], ["updated_at", "2019-01-22 12:43:41.592924"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Boris"], ["last_name", "Rodriguez"], ["username", "boris_rodriguez"], ["password", "Ac8tIwQlJwVoBlR7"], ["created_at", "2019-01-22 12:43:41.596030"], ["updated_at", "2019-01-22 12:43:41.596030"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Christoper"], ["last_name", "Monahan"], ["username", "christoper.monahan"], ["password", "9k6jHcYfG4DeV0"], ["created_at", "2019-01-22 12:43:41.599075"], ["updated_at", "2019-01-22 12:43:41.599075"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Brady"], ["last_name", "Doyle"], ["username", "brady_doyle"], ["password", "3x9bJeOc9eTa3gI"], ["created_at", "2019-01-22 12:43:41.602746"], ["updated_at", "2019-01-22 12:43:41.602746"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Bradly"], ["last_name", "Reichel"], ["username", "bradly.reichel"], ["password", "WuU7KoAjMa"], ["created_at", "2019-01-22 12:43:41.605826"], ["updated_at", "2019-01-22 12:43:41.605826"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Danilo"], ["last_name", "Parisian"], ["username", "parisian_danilo"], ["password", "Ha6x7j4iPj8fTyJ"], ["created_at", "2019-01-22 12:43:41.608819"], ["updated_at", "2019-01-22 12:43:41.608819"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Darwin"], ["last_name", "Pfannerstill"], ["username", "pfannerstill_darwin"], ["password", "P9CqBpG2UaC"], ["created_at", "2019-01-22 12:43:41.611815"], ["updated_at", "2019-01-22 12:43:41.611815"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Joycelyn"], ["last_name", "Haag"], ["username", "joycelyn_haag"], ["password", "LiCbEzEsCpMk6f7"], ["created_at", "2019-01-22 12:43:41.615102"], ["updated_at", "2019-01-22 12:43:41.615102"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Clayton"], ["last_name", "Lubowitz"], ["username", "clayton_lubowitz"], ["password", "KmBk0bScNj3j7b"], ["created_at", "2019-01-22 12:43:41.641667"], ["updated_at", "2019-01-22 12:43:41.641667"]]
+  ↳ (byebug):1
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Bernardina"], ["last_name", "Crooks"], ["username", "bernardina.crooks"], ["password", "D3N0Gp4cO"], ["created_at", "2019-01-22 12:43:41.644754"], ["updated_at", "2019-01-22 12:43:41.644754"]]
+  ↳ (byebug):1
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Kacie"], ["last_name", "Daniel"], ["username", "kacie.daniel"], ["password", "EuGkPbGtZaOtR0F3"], ["created_at", "2019-01-22 12:43:41.647623"], ["updated_at", "2019-01-22 12:43:41.647623"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Jose"], ["last_name", "Huels"], ["username", "huels.jose"], ["password", "EsEdRjUdHwKr22F"], ["created_at", "2019-01-22 12:43:41.650623"], ["updated_at", "2019-01-22 12:43:41.650623"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Abraham"], ["last_name", "Hudson"], ["username", "abraham.hudson"], ["password", "VgW8ZaRtE491"], ["created_at", "2019-01-22 12:43:41.654024"], ["updated_at", "2019-01-22 12:43:41.654024"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Cortez"], ["last_name", "Hoppe"], ["username", "hoppe_cortez"], ["password", "QiJcO36a"], ["created_at", "2019-01-22 12:43:41.657108"], ["updated_at", "2019-01-22 12:43:41.657108"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Charley"], ["last_name", "Kuvalis"], ["username", "charley.kuvalis"], ["password", "E04wDxOqX"], ["created_at", "2019-01-22 12:43:41.660206"], ["updated_at", "2019-01-22 12:43:41.660206"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Martine"], ["last_name", "Brekke"], ["username", "brekke.martine"], ["password", "U74t2uJu"], ["created_at", "2019-01-22 12:43:41.663291"], ["updated_at", "2019-01-22 12:43:41.663291"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Jesus"], ["last_name", "Pollich"], ["username", "jesus_pollich"], ["password", "8qBvSt3fS"], ["created_at", "2019-01-22 12:43:41.666751"], ["updated_at", "2019-01-22 12:43:41.666751"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Curtis"], ["last_name", "Schneider"], ["username", "curtis_schneider"], ["password", "Ij4wM2016sT7FmY"], ["created_at", "2019-01-22 12:43:41.670068"], ["updated_at", "2019-01-22 12:43:41.670068"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Lane"], ["last_name", "O'Kon"], ["username", "o.kon.lane"], ["password", "P7QtQp45"], ["created_at", "2019-01-22 12:43:41.674280"], ["updated_at", "2019-01-22 12:43:41.674280"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Marketta"], ["last_name", "Hegmann"], ["username", "marketta_hegmann"], ["password", "8wKd4vLmTfFfPzG"], ["created_at", "2019-01-22 12:43:41.677744"], ["updated_at", "2019-01-22 12:43:41.677744"]]
+  ↳ (byebug):1
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Virgil"], ["last_name", "Mayert"], ["username", "virgil_mayert"], ["password", "4eYu81C1EdE"], ["created_at", "2019-01-22 12:43:41.681003"], ["updated_at", "2019-01-22 12:43:41.681003"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Minskin"], ["created_at", "2019-01-22 12:44:18.294692"], ["updated_at", "2019-01-22 12:44:18.294692"]]
+  ↳ (byebug):1
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Napoleon"], ["created_at", "2019-01-22 12:44:18.300683"], ["updated_at", "2019-01-22 12:44:18.300683"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Burmilla"], ["created_at", "2019-01-22 12:44:18.303620"], ["updated_at", "2019-01-22 12:44:18.303620"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "LaPerm"], ["created_at", "2019-01-22 12:44:18.306410"], ["updated_at", "2019-01-22 12:44:18.306410"]]
+  ↳ (byebug):1
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (byebug):1
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Havana Brown"], ["created_at", "2019-01-22 12:44:18.309933"], ["updated_at", "2019-01-22 12:44:18.309933"]]
+  ↳ (byebug):1
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (byebug):1
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Update (0.8ms)[0m  [1m[33mUPDATE "users" SET "dob" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["dob", "1983-07-16"], ["updated_at", "2019-01-22 12:46:59.363205"], ["id", 1]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m

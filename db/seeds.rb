@@ -27,6 +27,6 @@ end
 
     categories << category
 end
-
+byebug
 User.create(users)
 Category.create(categories)
