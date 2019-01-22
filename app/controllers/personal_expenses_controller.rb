@@ -1,11 +1,17 @@
 class PersonalExpensesController < ApplicationController
-  def show
-    @personalexpense = PersonalExpense.find(params[:id])
+  
+  def index
+    @user = User.find(params[:user_id])
+    @personal_expenses = @user.personal_expenses
+  end
+  
+  def show    
+    @personal_expense = PersonalExpense.find(params[:id])
   end
 
   def new
     @personalexpense = PersonalExpense.new
-    @personalexpenses = PersonalExpense.all
+    @personal_expenses = PersonalExpense.all
   end
 
   def create
