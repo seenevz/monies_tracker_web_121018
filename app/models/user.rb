@@ -44,5 +44,11 @@ class User < ApplicationRecord
         shared
     end
 
-    
+    def shared_users
+        self.shared_expenses.map.uniq do |expense|
+            expense.wallets.map do |wallet|
+                wallet.user unless wallet.user == self
+            end
+        end
+    end
 end

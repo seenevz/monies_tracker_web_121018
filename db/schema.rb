@@ -46,7 +46,7 @@ ActiveRecord::Schema.define(version: 2019_01_21_172651) do
     t.string "first_name"
     t.string "last_name"
     t.string "username"
-    t.string "password"
+    t.string "password_digest"
     t.integer "budget"
     t.integer "goal"
     t.date "dob"
