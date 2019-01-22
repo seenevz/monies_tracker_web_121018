@@ -1,0 +1,7 @@
+<h1><%= @personal_expense.name %></h1>
+
+<h2>Amount: <%= @personal_expense.amount %></h2>
+<h3>Category: <%= @personal_expense.category_name  %></h3>
+
+<%= link_to 'Delete expense', personal_expense_path(@personal_expense), method: :delete, data: { confirm: 'Are you sure?' } %>
+

@@ -13,7 +13,7 @@ class User < ApplicationRecord
     def age
         birthday = self.dob
         today = Date.today
-        # byebug
+        
         age = ((today - birthday).to_i) / 365
     end
 

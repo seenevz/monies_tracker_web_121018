@@ -1,0 +1,10 @@
+<h3><% @personal_expenses.each do |expense| %>
+  <ul>
+  <li>Expense name: <%= link_to expense.name, personal_expense_path(expense) %></li> 
+  <li>Expense amount: <%= expense.amount %></li> 
+  <li>Expense created on: <%= expense.created_at %></li> 
+  <li>Category: <%= expense.category_name %></li>
+  </ul>
+<% end %></h3>
+
+<%= link_to 'Dashboard', user_path(@user) %>

@@ -1,0 +1,7 @@
+<h1><%= @user.first_name %> <%= @user.last_name %></h1>
+
+<h2>City: <%= @user.city %> Budget: <%= @user.budget %> </h2>
+
+<h3>Age: <%= @user.age %> Goal: <%= @user.goal %></h3>
+
+<%= link_to 'View your expenses', user_personal_expenses_path(@user) %>

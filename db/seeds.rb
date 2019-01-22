@@ -21,6 +21,10 @@ wallets = []
     user[:last_name] =  Faker::Name.last_name
     user[:username] =  Faker::Internet.username("#{user[:first_name]} #{user[:last_name]}")
     user[:password_digest] = Faker::Internet.password
+    user[:dob] = Faker::Date.birthday(18, 65)
+    user[:budget] = rand(100..1000)
+    user[:goal] = rand(100..1000)
+    user[:city] = Faker::Address.city
     
     users << user
 end
