@@ -1,5 +1,6 @@
 class Category < ApplicationRecord
-    belongs_to :personal_expense
+    has_many :personal_expenses
+    has_many :shared_expenses, through: :shared_expenses 
     
 
     validates :name, presence: true

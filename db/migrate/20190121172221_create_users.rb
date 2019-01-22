@@ -7,7 +7,7 @@ class CreateUsers < ActiveRecord::Migration[5.2]
       t.string :password
       t.integer :budget
       t.integer :goal
-      t.datetype :dob
+      t.date :dob
       t.string :city
 
       t.timestamps
