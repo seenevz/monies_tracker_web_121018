@@ -1,0 +1,13 @@
+
+
+<h1><%= @personal_expense.name.humanize %></h1>
+<p><%= link_to 'All expenses', user_personal_expenses_path(@user) %></p>
+<h2>Amount: <%= @personal_expense.amount %></h2>
+<h3>Category: <%= @personal_expense.category_name  %></h3>
+
+<li><%= button_to 'Delete expense', personal_expense_path(@personal_expense), { method: "delete" } %>  <%= button_to 'Edit expense', edit_user_personal_expense_path(@personal_expense.user_id, @personal_expense), { method: "get" } %> </li>
+
+
+
+<!-- data: { confirm: 'Are you sure?' } -->
+
