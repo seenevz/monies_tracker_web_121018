@@ -1,7 +1,6 @@
 <h3><% @personal_expenses.each do |expense| %>
-<% byebug%>
   <ul>
-  <li>Expense name: <%= link_to expense.name, user_personal_expense_path(expense.id) %></li> 
+  <li>Expense name: <%= link_to expense.name, user_personal_expense_path(expense.user_id, expense) %></li> 
   <li>Expense amount: <%= expense.amount %></li> 
   <li>Expense created on: <%= expense.created_at %></li> 
   <li>Category: <%= expense.category_name %></li>

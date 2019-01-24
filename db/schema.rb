@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(version: 2019_01_21_172651) do
   end
 
   create_table "shared_wallets", force: :cascade do |t|
+    t.string "name"
     t.integer "personal_expense_id"
     t.integer "shared_expense_id"
     t.datetime "created_at", null: false

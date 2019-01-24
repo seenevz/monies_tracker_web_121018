@@ -1,0 +1,14 @@
+<% if !@shared_wallets.empty? %>
+  <h3><% @shared_wallets.each do |wallet| %>
+    <ul>
+    <li>Expense name: <%= link_to wallet.name, user_personal_expense_path(wallet.user_id, wallet) %></li> 
+    <li>Expense amount: <%= wallet.total %></li> 
+    <li>Expense created on: <%= wallet.created_at %></li> 
+    <li>Category: <%= wallet.tag %></li>
+    </ul>
+  <% end %></h3>
+<% else %>
+  <h3>You dont have any shared wallets!</h3>
+<% end  %>
+<hr>
+<%= link_to 'Dashboard', user_path(@user) %>
