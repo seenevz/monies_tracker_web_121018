@@ -13,6 +13,7 @@ categories = []
 pers_expenses = []
 shared_expenses = []
 wallets = []
+user_wallets = []
 
 40.times do
     user = {}
@@ -64,21 +65,34 @@ end
 20.times do 
     wallet = {}
     
+    wallet[:name] = Faker::Lorem.word
     wallet[:shared_expense_id] = rand(1..50)
     wallet[:personal_expense_id] = rand(150..200) 
 
     wallets << wallet    
 end
 
-# byebug
+20.times do 
+    user_wallet = {}
+    
+    user_wallet[:user_id] = rand(1..40)
+    user_wallet[:shared_wallet_id] = rand(1..20) 
+    
+    user_wallets << user_wallet    
+end
+
+
 User.create(users)
-p "Created users!"
+puts "Created users!"
 Category.create(categories)
-p "Created categories"
+puts "Created categories!"
 PersonalExpense.create(pers_expenses)
-p "Created personal expenses"
+puts "Created personal expenses!"
 SharedExpense.create(shared_expenses)
-p "Created shared expenses"
+puts "Created shared expenses!"
 SharedWallet.create(wallets)
-p "Created wallets"
-p "Database seeded!"
+puts "Created wallets!"
+UserWallet.create(user_wallets)
+# byebug
+puts "Created user wallets!"
+puts "Database seeded!"

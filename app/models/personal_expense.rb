@@ -17,4 +17,8 @@ class PersonalExpense < ApplicationRecord
     def category_name
         self.category.name
     end
+
+    def user_id
+        self.user.id
+    end
 end

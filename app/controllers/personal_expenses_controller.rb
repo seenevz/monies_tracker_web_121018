@@ -1,57 +1,54 @@
 class PersonalExpensesController < ApplicationController
   before_action :find_personal_exp, except: [:index, :new, :create]
-  before_action :find_user, except: [:index, :new, :create]
-  
+  before_action :find_user , except: [:create, :destroy]
+  before_action :authorized?, only: [:index, :show, :edit, :new]
   
   def index
-    @user = User.find(params[:user_id])
-    @personal_expenses = @user.personal_expenses
-    byebug
-    p "eof"
+    @personal_expenses = @user.personal_expenses    
   end
   
   def show
-    
-    @user = @personal_expense.user
   end
 
   def new
-    @user = User.find(params[:user_id])
-    @personal_expense = PersonalExpense.new
-    # byebug
-    @category= Category.new
+    # shared_expense = false
+
+
+    # if shared_expense
+      @personal_expense = PersonalExpense.new
+      @category= Category.new
   end
 
   def create
-    byebug
+    @user = User.find(params.require(:personal_expense).permit(:user_id)[:user_id])
+    # byebug
+
     @personal_expense = PersonalExpense.create(persona_exp_params)
-    redirect_to user_personal_expense_path(@personal_expense)
+    redirect_to user_personal_expense_path(@user, @personal_expense)
   end 
 
   def edit
     
-    # byebug
-    # @personal_expense = PersonalExpense.find(params[:id])
   end
 
   def update
-    # @personal_expense = PersonalExpense.find(params[:id])
-    byebug
+    
     @personal_expense.update(persona_exp_params)
+    redirect_to user_personal_expense_path(@user, @personal_expense)
   end
 
   def destroy
-    user = @personal_expense.user
-    
+    user = @personal_expense.user_id
     @personal_expense.destroy
-    # byebug
-    redirect_to user_personal_expenses_path(user)
+    redirect_to user_path(user)
   end
-
+  
   private
-
+  
   def find_user
-    @user = User.find(params[:id])
+    
+    # byebug
+    @user = User.find(params[:user_id])
   end
 
   def find_personal_exp
@@ -59,8 +56,7 @@ class PersonalExpensesController < ApplicationController
   end
 
   def persona_exp_params
-    params.require(:personal_expense).permit(:name, :amount, :user_id, category_attributes: [:name])
-    
-    
+    params.require(:personal_expense).permit(:name, :amount, :user_id, category_attributes: [:name])    
    end
+
 end

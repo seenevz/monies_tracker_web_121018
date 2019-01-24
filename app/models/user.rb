@@ -1,17 +1,22 @@
 class User < ApplicationRecord
     has_many :personal_expenses
+    has_many :user_wallets
     has_many :categories, through: :personal_expenses
-    has_many :shared_wallets, through: :personal_expenses
+    has_many :shared_wallets, through: :user_wallets
     has_many :shared_expenses, through: :shared_wallets
 
-    # validates :first_name, :last_name, :username, :password, presence: true
-    # validates :username, uniqueness: true
+    has_secure_password
+
+    
+
+    validates :first_name, :last_name, :username, :password, presence: true
+    validates :username, uniqueness: true
     # validates :dob, format: { with: /\d{2}\/\d{2}\/\d{4}/ }
-    # # validates :password, confirmation: true
+    validates :password, confirmation: true
     
 
     def age
-        birthday = self.dob
+        birthday = Date.parse(self.dob)
         today = Date.today
         
         age = ((today - birthday).to_i) / 365

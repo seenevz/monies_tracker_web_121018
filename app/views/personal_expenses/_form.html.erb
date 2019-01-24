@@ -1,5 +1,5 @@
  <%= form_for @personal_expense do |f| %>
-    <%= hidden_field_tag :"personal_expense[id]", @user.id %>
+    <%= hidden_field_tag :"personal_expense[user_id]", @user.id %>
     <%= f.label "description" %>
     <%= f.text_field :name %>
     <%= f.label :amount %>
@@ -13,5 +13,6 @@
                <% end %>
          </datalist> 
       <% end %>
+   <%=  %>
       <%= f.submit %>
  <% end %>

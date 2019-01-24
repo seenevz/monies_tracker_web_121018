@@ -1,0 +1,14 @@
+<h1><%= @shared_wallet.name %></h1>
+
+<h2>Amount: <%= @shared_wallet.total %></h2>
+
+<h3>You shared it with</h3>
+<ul>
+    <% @shared_wallet.users.each do |user|%>
+        <li>
+            <%= user.first_name %> <%= user.last_name %>
+        </li>
+    <% end %>
+</ul>
+
+<%= link_to 'Back to your wallets', user_shared_wallets_path(@user) %>
