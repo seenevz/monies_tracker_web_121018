@@ -10,4 +10,12 @@ Rails.application.routes.draw do
   resources :personal_expenses, only: [:create, :update, :destroy]
   resources :shared_wallets, only: [:create, :update, :destroy]
 
+  get '/signup', to: 'users#new', as: 'signup'
+  post '/signup', to: 'users#create'
+  # get '/users/:id', to: 'users#show', as: 'user'
+
+  get '/login', to: 'sessions#new', as: 'login'
+  post '/sessions', to: 'sessions#create', as: 'sessions'
+  get '/logout', to: 'sessions#destroy', as: 'logout'
+
 end

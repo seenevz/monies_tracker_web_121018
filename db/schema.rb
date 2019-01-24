@@ -57,7 +57,7 @@ ActiveRecord::Schema.define(version: 2019_01_24_093521) do
     t.string "password_digest"
     t.integer "budget"
     t.integer "goal"
-    t.date "dob"
+    t.string "dob"
     t.string "city"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

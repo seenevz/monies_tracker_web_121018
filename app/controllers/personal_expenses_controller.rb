@@ -1,28 +1,27 @@
 class PersonalExpensesController < ApplicationController
   before_action :find_personal_exp, except: [:index, :new, :create]
   before_action :find_user , except: [:create, :destroy]
-  
+  before_action :authorized?, only: [:index, :show, :edit, :new]
   
   def index
     @personal_expenses = @user.personal_expenses    
   end
   
   def show
-    
   end
 
   def new
-    shared_expense = false
+    # shared_expense = false
 
 
-    if shared_expense
+    # if shared_expense
       @personal_expense = PersonalExpense.new
       @category= Category.new
   end
 
   def create
     @user = User.find(params.require(:personal_expense).permit(:user_id)[:user_id])
-    byebug
+    # byebug
 
     @personal_expense = PersonalExpense.create(persona_exp_params)
     redirect_to user_personal_expense_path(@user, @personal_expense)
