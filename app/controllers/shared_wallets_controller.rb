@@ -3,7 +3,7 @@ class SharedWalletsController < ApplicationController
   before_action :find_user, except: [:create, :destroy]
 
   def index
-    byebug
+    # byebug
     @shared_wallets = @user.shared_wallets
   end
 
@@ -36,7 +36,7 @@ class SharedWalletsController < ApplicationController
   end
 
   def find_shared_wallet
-    @shared_wallet = PersonalExpense.find(params[:id])
+    @shared_wallet = SharedWallet.find(params[:id])
   end
 
   def sw_params

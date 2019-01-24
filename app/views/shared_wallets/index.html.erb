@@ -1,9 +1,11 @@
+<h1>Your shared wallets!</h1>
+
 <% if !@shared_wallets.empty? %>
   <h3><% @shared_wallets.each do |wallet| %>
     <ul>
-    <li>Expense name: <%= link_to wallet.name, user_personal_expense_path(wallet.user_id, wallet) %></li> 
-    <li>Expense amount: <%= wallet.total %></li> 
-    <li>Expense created on: <%= wallet.created_at %></li> 
+    <li>Wallet name: <%= link_to wallet.name, user_shared_wallet_path(@user, wallet) %></li> 
+    <li>Wallet amount: <%= wallet.total %></li> 
+    <li>Created on: <%= wallet.created_at %></li> 
     <li>Category: <%= wallet.tag %></li>
     </ul>
   <% end %></h3>

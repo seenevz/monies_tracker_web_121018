@@ -1,6 +1,6 @@
 class PersonalExpensesController < ApplicationController
   before_action :find_personal_exp, except: [:index, :new, :create]
-  before_action :find_user, except: [:create, :update, :destroy]
+  before_action :find_user , except: [:create, :destroy]
   
   
   def index
@@ -8,20 +8,24 @@ class PersonalExpensesController < ApplicationController
   end
   
   def show
-    @user = @personal_expense.user
+    
   end
 
   def new
-    
-    @personal_expense = PersonalExpense.new
-    # byebug
-    @category= Category.new
+    shared_expense = false
+
+
+    if shared_expense
+      @personal_expense = PersonalExpense.new
+      @category= Category.new
   end
 
   def create
-    # byebug
+    @user = User.find(params.require(:personal_expense).permit(:user_id)[:user_id])
+    byebug
+
     @personal_expense = PersonalExpense.create(persona_exp_params)
-    redirect_to user_personal_expense_path(@personal_expense)
+    redirect_to user_personal_expense_path(@user, @personal_expense)
   end 
 
   def edit
@@ -29,20 +33,22 @@ class PersonalExpensesController < ApplicationController
   end
 
   def update
+    
     @personal_expense.update(persona_exp_params)
-    redirect_to user_personal_expense_path(@personal_expense.user_id, @personal_expense)
+    redirect_to user_personal_expense_path(@user, @personal_expense)
   end
 
   def destroy
-    user = @personal_expense.user
-    
+    user = @personal_expense.user_id
     @personal_expense.destroy
-    redirect_to user_personal_expenses_path(user)
+    redirect_to user_path(user)
   end
-
+  
   private
-
+  
   def find_user
+    
+    # byebug
     @user = User.find(params[:user_id])
   end
 

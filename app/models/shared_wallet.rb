@@ -1,6 +1,8 @@
 class SharedWallet < ApplicationRecord
     belongs_to :personal_expense
     belongs_to :shared_expense
+    has_many :user_wallets
+    has_many :users, through: :user_wallets
 
     def total
         self.shared_expense.amount
@@ -10,8 +12,6 @@ class SharedWallet < ApplicationRecord
         self.shared_expense.category.name
     end
 
-    def user_id
-        self.personal_expense.user.id
-    end
+    
 
 end

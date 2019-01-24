@@ -13,6 +13,7 @@ categories = []
 pers_expenses = []
 shared_expenses = []
 wallets = []
+user_wallets = []
 
 40.times do
     user = {}
@@ -71,7 +72,16 @@ end
     wallets << wallet    
 end
 
-# byebug
+20.times do 
+    user_wallet = {}
+    
+    user_wallet[:user_id] = rand(1..40)
+    user_wallet[:shared_wallet_id] = rand(1..20) 
+    
+    user_wallets << user_wallet    
+end
+
+
 User.create(users)
 puts "Created users!"
 Category.create(categories)
@@ -82,4 +92,7 @@ SharedExpense.create(shared_expenses)
 puts "Created shared expenses!"
 SharedWallet.create(wallets)
 puts "Created wallets!"
+UserWallet.create(user_wallets)
+# byebug
+puts "Created user wallets!"
 puts "Database seeded!"
