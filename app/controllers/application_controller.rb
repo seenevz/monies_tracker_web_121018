@@ -5,6 +5,10 @@ class ApplicationController < ActionController::Base
   #   redirect_to "/login"
   # end
 
+  def welcome 
+    render "/welcome"
+  end
+
   def current_user
     if session[:user_id]
       User.find(session[:user_id])

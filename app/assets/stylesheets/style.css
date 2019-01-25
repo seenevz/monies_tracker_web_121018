@@ -16,19 +16,13 @@ html, body {
  width: 100vw;
  height: 100vh;
  position: relative;
-  background: rgb(225, 239, 247);
+  background: #f9f8f7; 
+  /*background: -webkit-linear-gradient(to right, #ece9e6, #ffffff);  Chrome 10-25, Safari 5.1-6 
+  background: linear-gradient(to right, #ece9e6, #ffffff);*/
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
-}
-
-html.show, body.show {
-  /*background: linear-gradient(to right, #1c92d2, #f2fcfe); 
-  background: -webkit-linear-gradient(to right, #1c92d2, #f2fcfe); */
-  background: #ece9e6; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ece9e6, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ece9e6, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .group:before,
@@ -84,10 +78,19 @@ ul {
   width: 30%;
 }
 
+.form-logo {
+  width: 50%;
+}
+
+#form-background {
+  background: #1a9f60;
+}
+
+/*
 li .homepage-logo {
   width: 120px;
 }
-
+*/
 #center-img {
   width: 114px;
   height: 114px;
@@ -96,9 +99,18 @@ li .homepage-logo {
   right: 45%
 }
 
-#dark-button input[type="submit"] {
+/*#dark-button input[type="submit"] {
   background: rgb(14, 38, 50);
+}*/
+
+.change-display {
+  display: inline-block;
 }
+
+.change-display a {
+  color: white;
+}
+
 
 
 h1 { 
@@ -115,6 +127,10 @@ p {
  
  .text-aligner {
   text-align: center;
+ }
+
+ .div-aligner {
+  margin: 0 auto;
  }
  
 .image-container {
@@ -138,7 +154,7 @@ p {
 }
 
 .center-card-div {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.1);
   width: 50%;
   margin: 0 auto;
   margin-bottom: 5%;
@@ -146,4 +162,7 @@ p {
 
  .spacer{
   margin: 10px;
+}
+.big-spacer {
+  margin: 10%;
 }

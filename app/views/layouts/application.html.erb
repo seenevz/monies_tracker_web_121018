@@ -25,12 +25,11 @@
     <% end %>
   <% end %>
 
-  <% if !logged_in? %>
-   <div>
-      <%= link_to 'log in', login_path %>
-      <%= link_to 'sign up', signup_path %>
-    </div>
-    <% else %>
+ <% if logged_in? %>
+   
+     <!--  <%= link_to 'log in', login_path %>
+      <%= link_to 'sign up', signup_path %> -->
+
 <nav class="nav-aligner">
 <ul>
 <li><span id="nav-name"> <%= 'Hello, ' + current_user.first_name + '!' %></span></li>
@@ -38,7 +37,7 @@
 <li><%= link_to 'dashboard', user_path(current_user) %></li>
 </ul>
 </nav>
-    <% end %>
+   <% end %>
 
     <%= yield %>
   </body>
