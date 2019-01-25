@@ -1,3 +1,5 @@
 <h1>New personal Expense</h1>
 
 <%= render 'form' %>
+
+<%= button_to( "shared", new_user_personal_expense_path, method: "post", params: {user_id: params[:user_id]})  %>

@@ -47,7 +47,7 @@ class PersonalExpensesController < ApplicationController
   
   def find_user
     
-    # byebug
+    #  byebug
     @user = User.find(params[:user_id])
   end
 

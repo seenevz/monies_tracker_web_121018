@@ -7,6 +7,8 @@ Rails.application.routes.draw do
     resources :shared_wallets, only: [:index, :show, :new, :edit]
   end
 
+  post '/users/:id/personal_expenses/new', to: 'personal_expenses#new'
+
   resources :personal_expenses, only: [:create, :update, :destroy]
   resources :shared_wallets, only: [:create, :update, :destroy]
 

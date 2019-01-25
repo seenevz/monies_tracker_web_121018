@@ -1,9 +1,13 @@
-<h1><%= @user.first_name %> <%= @user.last_name %></h1>
+<div><h1><%= @user.first_name %> <%= @user.last_name %></h1>
 
 <h2>City: <%= @user.city %><br> Budget: <%= @user.budget %></h2>
 
 <h3>Age: <%= @user.age %><br> Goal: <%= @user.goal %></h3>
+</div>
 
+
+<div>
 <%= link_to 'View your expenses', user_personal_expenses_path(@user) %>
 <%= link_to 'New expense', new_user_personal_expense_path(@user) %>
 <%= link_to 'View your wallets', user_shared_wallets_path(@user) %>
+</div>

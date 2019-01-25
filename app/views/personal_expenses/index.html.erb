@@ -1,13 +1,16 @@
 
 <% if !@personal_expenses.empty? %>
-<h3><% @personal_expenses.each do |expense| %>
-  <ul>
-  <li>Expense name: <%= link_to expense.name, user_personal_expense_path(expense.user_id, expense) %></li> 
-  <li>Expense amount: <%= expense.amount %></li> 
-  <li>Expense created on: <%= expense.created_at %></li> 
-  <li>Category: <%= expense.category_name %></li>
-  </ul>
-<% end %></h3>
+  <div>
+    <% @personal_expenses.each do |expense| %>
+      <ul>
+      <li>Expense name: <%= link_to expense.name, user_personal_expense_path(expense.user_id, expense) %></li> 
+      <li>Expense amount: <%= expense.amount %></li> 
+      <li>Expense created on: <%= expense.created_at %></li> 
+      <li>Category: <%= expense.category_name %></li>
+      </ul>
+    <% end %>
+</div>
+
 <% else %>
 <h3>You don't have any expenses!</h3>
 <% end%>
