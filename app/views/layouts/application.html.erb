@@ -8,7 +8,6 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     
   </head>
-  <header>Test run</header>
   <body>
   <% if flash[:errors] %>
     <ul>
@@ -27,12 +26,17 @@
   <% end %>
 
   <% if !logged_in? %>
+   
       <%= link_to 'log in', login_path %>
       <%= link_to 'sign up', signup_path %>
     <% else %>
-      <%= link_to "log out", logout_path, method: "post" %>
-      <%= 'hello, ' + current_user.first_name + '!' %>
-      <%= link_to 'dashboard', user_path(current_user) %>
+<nav class="nav-aligner">
+<ul>
+<li><span id="nav-name"> <%= 'Hello, ' + current_user.first_name + '!' %></span></li>
+<li> <%= link_to "log out", logout_path, method: "post" %></li>
+<li><%= link_to 'dashboard', user_path(current_user) %></li>
+</ul>
+</nav>
     <% end %>
 
     <%= yield %>

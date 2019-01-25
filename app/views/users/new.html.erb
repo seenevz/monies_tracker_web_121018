@@ -1,22 +1,30 @@
-<h1>new user!</h1>
 
+    
+   <div class="text-aligner">
+       <img class="homepage-logo" src="<%= asset_path( 'logo.png' ) %>" />
+       <h1>Sign Up</h1>
+    </div>
+
+<div class="card center-card-div">
 <%= form_for @user do |f| %>
+    <%= f.label :username %>
+    <%= f.text_field :username%>
+    <%= f.label :password %>
+    <%= f.password_field :password %>
     <%= f.label :first_name %>
-    <%= f.text_field :first_name %><br>
+    <%= f.text_field :first_name %>
     <%= f.label :last_name %>
-    <%= f.text_field :last_name %><br>
+    <%= f.text_field :last_name %>
     <%= f.label "Date of birth" %>
-    <%= f.date_field :dob, max: Date.today %><br>
+    <%= f.date_field :dob, max: Date.today %>
     <%= f.label :city %>
-    <%= f.text_field :city %><br>
+    <%= f.text_field :city %>
     <%= f.label :goal %>
     <%= f.number_field :goal %>
     <%= f.label :budget %>
     <%= f.number_field :budget %>
-    <%= f.label :username %>
-    <%= f.text_field :username%>
-    <%= f.label :password %>
-    <%= f.password_field :password %><br>
-
-    <%= f.submit %>  
+<div class="spacer"></div>
+    <span id="dark-button"><%= f.submit 'Sign me up !'%></span>
 <% end %>
+</div>
+

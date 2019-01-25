@@ -1,9 +1,23 @@
-<h1><%= @user.first_name %> <%= @user.last_name %></h1>
 
-<h2>City: <%= @user.city %><br> Budget: <%= @user.budget %></h2>
-
-<h3>Age: <%= @user.age %><br> Goal: <%= @user.goal %></h3>
-
-<%= link_to 'View your expenses', user_personal_expenses_path(@user) %>
-<%= link_to 'New expense', new_user_personal_expense_path(@user) %>
-<%= link_to 'View your wallets', user_shared_wallets_path(@user) %>
+<html class="show">
+<body class="show">
+ <div class="card center-card-div" id="no-padding">
+  <div class="image-container">
+ <img  src="<%= asset_path( 'background.jpeg' ) %>" />
+ <img id="center-img" src="<%= asset_path( 'user.png' ) %>" />
+</div>
+ <ul class="nav-link-items group">
+<li><%= link_to 'View your expenses', user_personal_expenses_path(@user) %></li>
+<li><%= link_to 'New expense', new_user_personal_expense_path(@user) %></li>
+<li><%= link_to 'View your wallets', user_shared_wallets_path(@user) %></li>
+</ul>
+ <div class="add-padding">
+<p><b>Name: </b><%= @user.first_name %> <%= @user.last_name %></p>
+<p><b>Age: </b><%= @user.age %></p>
+<p><b>City:</b> <%= @user.city %></p> 
+<p><b>Budget:</b> $<%= @user.budget %></p>
+<p><b>Savings Goal:</b> $<%= @user.goal %></p>
+</div>
+</div>
+</body>
+</html>

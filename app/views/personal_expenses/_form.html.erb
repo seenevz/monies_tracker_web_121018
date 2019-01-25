@@ -1,3 +1,5 @@
+
+<div class="card center-card-div">
  <%= form_for @personal_expense do |f| %>
     <%= hidden_field_tag :"personal_expense[user_id]", @user.id %>
     <%= f.label "description" %>
@@ -9,10 +11,12 @@
       <%= u.text_field :name, {list: :category} %>
          <datalist id="category">
                <% Category.all.each do |c| %>
-                  <option value="<%= c.name %>">
+                  <option value="<%= c.name %>"></option>
                <% end %>
          </datalist> 
       <% end %>
    <%=  %>
-      <%= f.submit %>
+   <div class="spacer"></div>
+      <span id="dark-button"><%= f.submit %></span>
  <% end %>
+</div>

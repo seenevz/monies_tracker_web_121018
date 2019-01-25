@@ -1,16 +1,26 @@
-<h1>Your shared wallets!</h1>
+<html class="show">
+<body class="show">
+   <div class="text-aligner">
+       <h1>Your shared wallets!</h1>
+    </div>
+
 
 <% if !@shared_wallets.empty? %>
-  <h3><% @shared_wallets.each do |wallet| %>
+  <% @shared_wallets.each do |wallet| %>
+    <div class="card center-card-div">
     <ul>
-    <li>Wallet name: <%= link_to wallet.name, user_shared_wallet_path(@user, wallet) %></li> 
+    <li> <%= link_to wallet.name, user_shared_wallet_path(@user, wallet) %></li> 
     <li>Wallet amount: <%= wallet.total %></li> 
     <li>Created on: <%= wallet.created_at %></li> 
     <li>Category: <%= wallet.tag %></li>
     </ul>
-  <% end %></h3>
+  </div>
+  <% end %>
 <% else %>
   <h3>You dont have any shared wallets!</h3>
 <% end  %>
-<hr>
-<%= link_to 'Dashboard', user_path(@user) %>
+<div class="spacer">
+  <hr>
+</div>
+</body>
+</html>
