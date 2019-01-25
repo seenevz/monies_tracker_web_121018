@@ -16,10 +16,10 @@ class User < ApplicationRecord
     
 
     def age
-        birthday = Date.parse(self.dob)
-        today = Date.today
+        # birthday = Date.parse(self.dob)
+        # today = Date.today
         
-        age = ((today - birthday).to_i) / 365
+        # age = ((today - birthday).to_i) / 365
     end
 
     def month_expenses(month)

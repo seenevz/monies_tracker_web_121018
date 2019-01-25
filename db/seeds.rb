@@ -92,7 +92,7 @@ SharedExpense.create(shared_expenses)
 puts "Created shared expenses!"
 SharedWallet.create(wallets)
 puts "Created wallets!"
-UserWallet.create(user_wallets)
-# byebug
-puts "Created user wallets!"
+# UserWallet.create(user_wallets)
+# # byebug
+# puts "Created user wallets!"
 puts "Database seeded!"

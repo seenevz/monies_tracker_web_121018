@@ -1,13 +1,15 @@
-<div>
-  <h2>log in</h2>
-</div>
 
-<div>
-  <%= form_tag sessions_path do %>
-    <%= label_tag :username %>
-    <%= text_field_tag :username %>
-    <%= label_tag :password %>
-    <%= password_field_tag :password %>
-    <%= submit_tag 'login' %>
-  <% end %>
+    <div class="text-aligner">
+       <img class="homepage-logo" src="<%= asset_path( 'logo.png' ) %>" />
+       <h1>Login</h1>
+    </div>
+
+  <div class="card center-card-div">
+<%= form_tag sessions_path do %>
+  <%= label_tag :username %>
+  <%= text_field_tag :username %>
+  <%= label_tag :password %>
+  <%= password_field_tag :password %><br>
+  <span id="dark-button"><%= submit_tag 'login' %></span>
+<% end %>
 </div>

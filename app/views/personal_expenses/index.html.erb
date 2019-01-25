@@ -1,16 +1,18 @@
-
+<html class="show">
+<body class="show">
 <% if !@personal_expenses.empty? %>
-  <div>
-    <% @personal_expenses.each do |expense| %>
-      <ul>
-      <li>Expense name: <%= link_to expense.name, user_personal_expense_path(expense.user_id, expense) %></li> 
-      <li>Expense amount: <%= expense.amount %></li> 
-      <li>Expense created on: <%= expense.created_at %></li> 
-      <li>Category: <%= expense.category_name %></li>
-      </ul>
-    <% end %>
+<% @personal_expenses.each do |expense| %>
+ <div class="card center-card-div">
+  <ul>
+  <li><h4> <%= link_to expense.name, user_personal_expense_path(expense.user_id, expense) %></h4></li> 
+  <li>Expense amount: $<%= expense.amount %></li> 
+  <li>Expense created on: <%= expense.created_at %></li> 
+  <li>Category: <%= expense.category_name %></li>
+  </ul>
 </div>
-
+<% end %>
 <% else %>
 <h3>You don't have any expenses!</h3>
 <% end%>
+</body>
+</html>
