@@ -1,11 +1,11 @@
 
-    
-   <div class="text-aligner">
-       <img class="homepage-logo" src="<%= asset_path( 'logo.png' ) %>" />
-       <h1>Sign Up</h1>
-    </div>
+<div class="big-spacer"></div>
+  <div class="card center-card-div">
+    <div class="text-aligner">
+     <img class="form-logo" src="<%= asset_path( 'logo.png' ) %>" />
+       <h2>Sign Up</h2>
+     </div>
 
-<div class="card center-card-div">
 <%= form_for @user do |f| %>
     <%= f.label :username %>
     <%= f.text_field :username%>

@@ -1,21 +1,45 @@
-<html class="show">
-<body class="show">
-
+<div class="big-spacer"></div>
 <div class="card center-card-div">
-<h1><%= @personal_expense.name.humanize %></h1>
-<ul class="nav-link-items group">
-  <li><%= link_to 'All expenses', user_personal_expenses_path(@user) %></li>
-</ul>
-<p><b>Amount:</b> <%= @personal_expense.amount %></p>
-<p><b>Category:</b> <%= @personal_expense.category_name%></p>
+<table class="striped">
+            <caption><h3><%= @personal_expense.name.humanize %></h3></caption>
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Amount</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <th> <%= link_to 'All expenses', user_personal_expenses_path(@user) %></th>
+              </tr>
+            </tfoot>
+            <tbody>
+              <tr>
+                <td><%= @personal_expense.category_name%></td>
+                <td> <%= @personal_expense.amount %></td>
+         
+              </tr>
+      
+            </tbody>
+          </table>
+  
 
-<%= button_to 'Delete expense', personal_expense_path(@personal_expense), { method: "delete" } %>
+          <span class="button primary change-display"> <%= link_to 'Delete expense', personal_expense_path(@personal_expense), { method: "delete" } %></span>
 <div class="spacer"></div>
 
-<%= button_to 'Edit expense', edit_user_personal_expense_path(@personal_expense.user_id, @personal_expense), { method: "get" } %> 
+ <span class="button primary change-display"><%=link_to 'Edit expense', edit_user_personal_expense_path(@personal_expense.user_id, @personal_expense), { method: "get" } %></span>
+
+
 </div>
-</body>
-</html>
+
+
+
+
+
+
+
+
+
 
 <!-- data: { confirm: 'Are you sure?' } -->
 
