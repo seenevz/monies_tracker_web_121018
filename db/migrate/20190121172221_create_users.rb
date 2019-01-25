@@ -7,6 +7,7 @@ class CreateUsers < ActiveRecord::Migration[5.2]
       t.string :password_digest
       t.integer :budget
       t.integer :goal
+      t.integer :saved_to_goal, default: 0
       t.string :dob
       t.string :city
 

@@ -1,5 +1,9 @@
 class ApplicationController < ActionController::Base
-    helper_method :current_user, :logged_in?
+  helper_method :current_user, :logged_in?
+
+  # rescue_from ActiveRecord::RecordNotFound do |exception|
+  #   redirect_to "/login"
+  # end
 
   def current_user
     if session[:user_id]
@@ -21,7 +25,7 @@ class ApplicationController < ActionController::Base
   end
 
   def authorized_for(target_user_id)
-    if current_user.id != target_user_id.to_i #&& current_user.admin != true
+    if current_user.id != target_user_id.to_i #&& current_user.admin != true 
       flash[:authorized] = "You cannot view a page that does not belong to you!"
       redirect_to login_path
     end

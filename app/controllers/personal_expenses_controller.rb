@@ -11,6 +11,7 @@ class PersonalExpensesController < ApplicationController
   end
 
   def new
+    byebug
     # shared_expense = false
 
 
@@ -47,7 +48,7 @@ class PersonalExpensesController < ApplicationController
   
   def find_user
     
-    #  byebug
+    # byebug
     @user = User.find(params[:user_id])
   end
 

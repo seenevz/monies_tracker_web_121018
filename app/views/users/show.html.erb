@@ -15,8 +15,14 @@
 <p><b>Name: </b><%= @user.first_name %> <%= @user.last_name %></p>
 <p><b>Age: </b><%= @user.age %></p>
 <p><b>City:</b> <%= @user.city %></p> 
-<p><b>Budget:</b> $<%= @user.budget %></p>
-<p><b>Savings Goal:</b> $<%= @user.goal %></p>
+<p><b>Budget left: </b>£<%= @user.budget_left %></p>
+<p><b>Savings Goal: </b>£<%= @user.goal %></p>
+<%# if (@user.update_saving_month).integer? %>
+<p><b>Savings so far: </b>£<%= @user.update_saving_month %></p>
+<%# else %>
+<p><b>Savings so far: </b><%= @user.update_saving_month %></p>
+<%# end %>
+<p><b>This month you spent so far: </b>£<%= @user.current_month_expenses_total %></p>
 </div>
 </div>
 </body>

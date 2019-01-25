@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2019_01_21_172651) do
     t.string "name"
     t.integer "amount"
     t.string "type"
+    t.string "notes"
     t.integer "category_id"
     t.integer "user_id"
     t.datetime "created_at", null: false
@@ -51,6 +52,7 @@ ActiveRecord::Schema.define(version: 2019_01_21_172651) do
     t.string "password_digest"
     t.integer "budget"
     t.integer "goal"
+    t.integer "saved_to_goal", default: 0
     t.string "dob"
     t.string "city"
     t.datetime "created_at", null: false

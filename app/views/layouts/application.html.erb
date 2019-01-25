@@ -26,9 +26,10 @@
   <% end %>
 
   <% if !logged_in? %>
-   
+   <div>
       <%= link_to 'log in', login_path %>
       <%= link_to 'sign up', signup_path %>
+    </div>
     <% else %>
 <nav class="nav-aligner">
 <ul>

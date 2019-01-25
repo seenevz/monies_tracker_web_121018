@@ -16,16 +16,45 @@ class User < ApplicationRecord
     
 
     def age
-        # birthday = Date.parse(self.dob)
-        # today = Date.today
+        birthday = Date.parse(self.dob)
+        today = Date.today
         
-        # age = ((today - birthday).to_i) / 365
+        age = ((today - birthday).to_i) / 365
+    end
+
+    def budget_left
+        leftover = self.budget - current_month_expenses_total
+
+        if leftover <= 0 
+            "You spent it all!"
+        else
+            leftover
+        end
+    end
+
+    def update_saving_month
+        today = DateTime.new
+
+        if today == today.end_of_month
+        self.saved_goal += self.budget_left
+        else
+            budget_left
+        end        
     end
 
     def month_expenses(month)
         self.personal_expenses.select do |personal_expense|
             personal_expense.created_at.month == month
         end
+    end
+
+    def current_month_expenses_total
+        total = 0
+
+        month_expenses(Date.today.month).each do |expense|
+            total += expense.amount
+        end
+        total
     end
 
     
